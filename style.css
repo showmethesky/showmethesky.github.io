@@ -1,1 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root {
+  --primary-col: #111;
+  --accent-col: #eaeaea;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: var(--primary-col);
+  color: var(--accent-col)
+}
